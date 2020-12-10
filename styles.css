@@ -1,0 +1,79 @@
+/*fonts*/
+
+@font-face {
+    font-family: "Boots & Spurs";
+    src: url("/fonts/BootsAndSpurs.ttf") format("woff2");
+}
+h1, h2 {
+    font-family: "Boots & Spurs", Verdana, sans-serif;
+}
+body {
+    font-family: Roboto, Verdana, sans-serif;
+}
+
+/*header and footer*/
+
+header, footer {
+    background-color: #202020;
+    color: #fff;
+}
+header a {
+    color: #fff;    
+}
+
+nav a {
+    padding: 10px;
+    text-decoration: none;
+}
+ul {
+    padding: 0px;
+}
+li {
+    display: inline;   
+}
+.current {
+    font-weight: bold;
+}
+
+/*body*/
+
+section {
+    background-color: #E8E8E8;
+}
+.view {
+    background-color: red;
+    border-radius: 10px;
+    padding: 10px;
+    width: 110;
+    height: 38;
+}
+.sale {
+    background-color: green;
+}
+.cta-large {
+    background: red;
+    display: inline-block;
+    padding: 5px 60px;
+    border-radius: 10%;
+}
+.featured-products {
+    background-color: #fbfbfb;
+}
+#ViewGuitars {
+    background-image: url(images/home-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 800px;
+}
+#strumming_guitar {
+    border-radius: 10%;
+}
+.reviews img {
+    border-radius: 50%;
+}
+
+/*contact page*/
+#submit {
+    background-color: red;
+    color: #fff;
+}

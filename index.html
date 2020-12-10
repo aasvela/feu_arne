@@ -5,57 +5,94 @@
     <meta charset="UTF-8" />
     <meta name="description" content="Worlds best authentic handmade guitars!">
     <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet"> 
+    <link href="styles.css" rel="stylesheet">
   </head>
   <body>
     <header>
-      <p><a href="index.html">Guitar Kings</a></p>
-      <img src="images/home-header.jpg" alt="Close up on a guitar">
+      <h1><a href="index.html">Guitar Kings</a></h1>
+      <sjekk denne senere  -img src="images/home-header.jpg" alt="Close up on a guitar">
       <nav>
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html" class="current">Home</a></li>
           <li><a href="guitars.html">Guitars</a></li>
           <li><a href="contact.html">Contact</a></li>
         </ul>
       </nav>
     </header>
     <main>
-      <section>
+      <section id="ViewGuitars">
         <h1>Authentic Handmade Guitars</h1>
-        <p><a href="guitars.html"View Guitars></a></p>
-      </section>    
+        <div class="cta-large"> 
+          <p><a href="guitars.html">View Guitars</a></p>
+        </div>
+      </section>
+
+      <!--Braging section-->
+      
       <section>
         <h2>Our Giutars Are</h2>
           <ul>
-            <li>Mad ewith real Pennsylvaninan wood</li>
+            <li>Made with real Pennsylvaninan wood</li>
             <li>Crafted by a family-run business</li>
-            <li>Bult to last a lifetime</li>
+            <li>Built to last a lifetime</li>
             <li>Beautiful unique sound</li>
             <li>Options for all music lovers</li>
           </ul>
-        <img src="images/home-info.jpg" alt="Hands strumming a guitar">
+        <img id="strumming_guitar" src="images/home-info.jpg" alt="Hands strumming a guitar">
+      </section>
+      
+      <!--End of braging section-->
+
+      <!--Reviews section-->
+      
+      <section class="reviews">
         <h2>Reviews</h2>
         <p>"Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."- Bob Willis</p>
         <img src="images/review-bio.jpg" alt="Profile pic of Bob Willice">
         <p>"Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt." - Sally Oldfield</p>
         <img src="images/review-bio2.jpg" alt="Profile pic of Sally Oldfield">
+      </section> 
+      
+      <!--End of Reviews section-->
+
+      <!--Featured product section-->
+
+      <section class="featured-products">
+        <div>
+          <h2>View Our Guitars</h2>
+          <img src="images/product.jpg" alt="Guitar resting on sofa">
+        </div>
+        <div>
+          <a class="view" href="Guitars/adirondack-red.html">View</a>
+          <img src="images/product-specific.jpg" alt="Man playing guitar">
+          <h3>Adirondack Red</h3>
+          <p>$500</p>
+        </div>
+        <div>
+          <a class="view sale" href="Guitars/adirondack-red.html">On Sale</a>
+          <img src="images/product-specific.jpg" alt="Man playing guitar">
+          <h3>Adirondack Red</h3>
+          <p>$500 $400</p>
+        </div>
+        <div>
+          <a class="view" href="Guitars/adirondack-red.html">View</a>
+          <img src="images/product-specific.jpg" alt="Man playing guitar">
+          <h3>Adirondack Red</h3>
+          <p>$500</p>
+        </div>
+        <div>
+          <a class="view" href="Guitars/adirondack-red.html">View</a>
+          <img src="images/product-specific.jpg" alt="Man playing guitar">
+          <h3>Adirondack Red</h3>
+          <p>$500</p>
+        </div>
       </section>
-      <div>
-        <h2>View Our Guitars</h2>
-        <img src="images/product.jpg" alt="Guitar resting on sofa">
-        <h3>Adirondack Red</h3>
-        <p>$500</p>
-        <a href="Guitars/adirondack-red.html">View</a>
-        <img src="images/product-specific.jpg" alt="Man playing guitar">
-        <h3>Adirondack Red</h3>
-        <p>$500</p>
-        <a href="Guitars/adirondack-red.html">View</a>
-        <img src="images/product-specific.jpg" alt="Man playing guitar">
-        <h3>Adirondack Red</h3>
-        <p>$500</p>
-        <a href="Guitars/adirondack-red.html">View</a>
-        <img src="images/product-specific.jpg" alt="Man playing guitar">
-      </div>
-    </main>
+
+      <!--End of Products section-->
+
+     </main>
     <footer>Copyright &copy;</footer>
   </body>
 </html>

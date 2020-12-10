@@ -1,4 +1,36 @@
 <!DOCTYPE html>
 <html>
-    <H1>Contact us</H1>
+    <head>
+        <link rel="stylesheet" href="styles.css">
+    </head>
+    <body>
+        <header>
+            <h1><a href="index.html">Guitar Kings</a></h1>
+            <sjekk denne senere  -img src="images/home-header.jpg" alt="Close up on a guitar">
+            <nav>
+              <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="guitars.html">Guitars</a></li>
+                <li><a href="contact.html" class="current">Contact</a></li>
+              </ul>
+            </nav>
+          </header>
+        <H1>Contact us</H1>
+        <form>
+            <fieldset>
+                <label for="name">Full name</label>
+                <input type="text" name="name" id="name">
+                <label for="email">Email</label>
+                <input type="email" name="email" id="email">
+                <label for="guitars">Guitar</label>
+                <select name="guitars" id="guitars">
+                    <option>Adirondack red</option>
+                </select>
+                <label for="Signup">Sign up for email updates</label>
+                <input type="checkbox" name="Signup" id="signup">
+                <textarea name="Message" rows="5" col="30" id="message"></textarea>
+                <input type="submit" value="Send Now" id="submit">
+            </fieldset>
+        </form>
+    </body>
 </html>
