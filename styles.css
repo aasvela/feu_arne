@@ -25,14 +25,23 @@ nav a {
     padding: 10px;
     text-decoration: none;
 }
+.header-links li {
+    display: inline;
+}
 ul {
     padding: 0px;
 }
-li {
-    display: inline;   
-}
 .current {
     font-weight: bold;
+}
+.view-guitars {
+    background: red;
+    display: inline-block;
+    padding: 5px 60px;
+    border-radius: 10%;
+}
+.view-guitars a {
+    font-family: roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
 }
 
 /*body*/
@@ -49,12 +58,6 @@ section {
 }
 .sale {
     background-color: green;
-}
-.cta-large {
-    background: red;
-    display: inline-block;
-    padding: 5px 60px;
-    border-radius: 10%;
 }
 .featured-products {
     background-color: #fbfbfb;
