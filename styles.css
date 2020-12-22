@@ -12,6 +12,14 @@ body {
 }
 
 /*header and footer*/
+.header-flex {
+    display: flex;
+    justify-content: space-around;
+}
+header h1 {
+    font-size: 20px;
+    padding right: 30px;
+}
 
 header, footer {
     background-color: #202020;
@@ -27,6 +35,7 @@ nav a {
 }
 .header-links li {
     display: inline;
+    padding-top: 50%;
 }
 ul {
     padding: 0px;
@@ -34,45 +43,72 @@ ul {
 .current {
     font-weight: bold;
 }
-.view-guitars {
-    background: red;
-    display: inline-block;
-    padding: 5px 60px;
-    border-radius: 10%;
-}
-.view-guitars a {
-    font-family: roboto, 'Open Sans', 'Helvetica Neue', sans-serif;
-}
+
 
 /*body*/
-
 section {
     background-color: #E8E8E8;
 }
+
+/*View guitars section*/
+.welcome {
+    background-image: url(images/home-header.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position-x: right;
+    background-position-y: bottom;
+    min-height: 70vh;
+    position: relative;
+}
+.welcome__content {
+    position: absolute;
+    text-align: center;
+    top: 100px;
+    left: 100px;
+}
+.view-guitars {
+    background-color: #bb0000;
+    color: #E8E8E8;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 1em;
+    padding: 10px 80px;
+    border-radius: 5%;
+}
+
+/*bragging section*/
+#strumming_guitar {
+    border-radius: 10%;
+}
+
+/*reviews section*/
+.reviews img {
+    border-radius: 50%;
+}
+
+/*featured products section*/
 .view {
     background-color: red;
     border-radius: 10px;
     padding: 10px;
     width: 110;
     height: 38;
+    float: right;
 }
 .sale {
     background-color: green;
 }
 .featured-products {
     background-color: #fbfbfb;
+    display: grid;
+    grid-gap: 30px;
+    grid-template-rows: auto;
+    grid-template-columns: auto auto auto auto;
+    clear: right;
 }
-#ViewGuitars {
-    background-image: url(images/home-header.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
-    min-height: 800px;
-}
-#strumming_guitar {
-    border-radius: 10%;
-}
-.reviews img {
-    border-radius: 50%;
+.featured-products img {
+    max-width: 300px;
+    max-height: 300px;
 }
 
 /*contact page*/
@@ -80,3 +116,5 @@ section {
     background-color: red;
     color: #fff;
 }
+
+
